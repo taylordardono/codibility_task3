@@ -1,0 +1,6 @@
+<mat-nav-list data-list>
+    <mat-list-item *ngFor="let item of items; let i = index">
+      <a (click)="emitAlert(item)" matLine>{{ item }}</a>
+        <mat-icon>map</mat-icon>
+    </mat-list-item>
+  </mat-nav-list>
